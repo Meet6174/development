@@ -1,0 +1,24 @@
+h1{
+    color:red;
+    background-color:aqua;
+    text-align:center;
+    font-weight:800;
+    text-decoration:orange wavy underline;
+    letter-spacing:10px;
+    font-size:70px;
+    font-family:sans-serif;
+}
+h2
+{
+    color:orange;
+    background-color:blue;
+    text-align:center;
+    text-decoration:overline rgb(30, 255, 1) dotted;
+   
+}
+p{
+    color:pink;
+    background-color:rgb(5, 3, 121);
+    font-weight:900;
+    line-height:2;
+}
