@@ -1,0 +1,14 @@
+h1{
+    color:rgb(137, 5, 5);
+}
+*{
+    font-family: 'Lucida Sans';
+}
+#login{
+    background-color:white;
+
+}
+#signup{
+    background-color:rgb(137, 5, 5);
+    color:white;
+}
