@@ -1,0 +1,15 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    color:aquamarine;
+}
+.userbtn{
+    color:aquamarine;
+    background-color:black;
+}
+#searchbtn
+{
+    background-color:black;
+    color:white;
+}

@@ -4,6 +4,7 @@ h1{
 *{
     font-family: 'Lucida Sans';
 }
+/* by id */
 #login{
     background-color:white;
 
@@ -11,4 +12,40 @@ h1{
 #signup{
     background-color:rgb(137, 5, 5);
     color:white;
+}
+/* by class */
+.upvote{
+
+    background-color:green;
+    color:white;
+}
+.post a{
+    color:purple;
+    background-color:yellow;
+}
+nav ul li a
+{
+    color:brown;
+}
+.upvote + .ans {
+    color:blueviolet;
+}
+input[type="text"],input[type="password"]
+{
+    color:green;
+}
+p:hover{
+    color:bisque;
+    background-color:blueviolet;
+}
+button:active{
+    backgeound-color:rgb(206, 16, 48);
+}
+button:hover{
+    color:blue;
+}
+input[type="radio"]:checked+ label {
+
+    color:blue;
+    background-color: aquamarine;
 }
