@@ -36,7 +36,7 @@ input[type="text"],input[type="password"]
 }
 p:hover{
     color:bisque;
-    background-color:blueviolet;
+    background-color:rgb(43, 147, 226);
 }
 button:active{
     backgeound-color:rgb(206, 16, 48);
@@ -48,4 +48,10 @@ input[type="radio"]:checked+ label {
 
     color:blue;
     background-color: aquamarine;
+}
+p::first-line{
+    background-color: lime;
+}
+p::selection{
+    background-color:red;
 }
