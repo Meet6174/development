@@ -1,0 +1,19 @@
+#container {
+    height:400px;
+    width:600px;
+    border: 4px solid black;
+    margin: 0 auto;
+    text-align :center;
+    color: rgb(0, 149, 249);
+    font-family:monospace;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+#container div{
+    width:200px;
+    height:100px;
+}
+h1{
+    text-align:center;
+}
