@@ -1,4 +1,35 @@
 h1{
     color: red;
     background:yellow;
+    height:200px;
+    width:200px;
+    text-align:center;
+    border:2px solid black;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    /* animation-name:boom;
+    animation-duration:2s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite; */
+    animation:boom 2s  alternate infinite;
+}
+body{
+    background-color: blanchedalmond;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+    height:500px;
+    
+}
+@keyframes boom{
+    from{
+        font-size:20px;
+    }
+    to
+    {
+        font-size:40px;
+        color:black;
+    }
 }

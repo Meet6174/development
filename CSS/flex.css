@@ -7,8 +7,10 @@
     color: rgb(0, 149, 249);
     font-family:monospace;
     display:flex;
-    justify-content:space-around;
+    /* justify-content:center; */
     flex-wrap:wrap;
+    align-content:flex-start;
+    align-items:flex-end;
 }
 #container div{
     width:200px;

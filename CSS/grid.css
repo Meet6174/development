@@ -1,0 +1,23 @@
+#container{
+    background-color: rgb(183, 24, 189);
+    height:300px;
+    width:600px;
+    border:2px solid black;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap:5px 10px;
+    justify-items:center;
+    align-items:center;
+}
+.item{
+    background-color: rgb(93, 198, 72);
+    height:50px;
+    width:100px;
+    border:2px solid black;
+    text-align:center;
+}
+.two{
+    grid-column-start: 2;
+    grid-column-end:4;
+}
