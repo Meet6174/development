@@ -1,15 +1,21 @@
-arr=[1,2,3,4,5,6];
-x="hello";
- avg=(arr)=>{
-    i=0;
-    sum=0;
-    while(i<arr.length)
-    {
-        sum+=arr[i++];
-    }
-    avg2=sum/i;
-    console.log(avg2);
-   
-}
-avg(arr);
-
+// x="hello";
+//  avg=(arr)=>{
+    //     i=0;
+    //     sum=0;
+    //     while(i<arr.length)
+    //     {
+    //         sum+=arr[i++];
+    //     }
+    //     avg2=sum/i;
+    //     console.log(avg2);
+    // }
+    //avg(arr);
+    arr=[1,2,3,4,5,6];
+arr.forEach((val)=>{
+    //console.log(val," ");
+});
+ 
+let double=arr.map((val)=>{
+    return val*2;
+})
+console.log(double);

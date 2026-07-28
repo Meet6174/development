@@ -1,0 +1,36 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: grey;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+    border:2px solid black;
+}
+#top
+{
+
+    border:2px solid black;
+    height:300px;
+    width: 400px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+}
+#head{
+    background-color: rgb(40, 196, 26);
+    border:2px solid rgb(1, 1, 17);
+    text-align: center;
+}
+#main{
+    background-color: yellow;
+    flex:1;
+    display:flex;
+    
+}
+.inp{
+    display:flex;
+    justify-content: center;
+}
