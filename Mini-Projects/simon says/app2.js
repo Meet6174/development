@@ -31,7 +31,6 @@ function flash() {
       setTimeout(() => {
         str[path[old_i]].style.backgroundColor = color[path[old_i]];
       }, 200);
-
       i++;
     }, 500);
   });

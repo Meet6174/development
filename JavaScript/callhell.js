@@ -35,7 +35,6 @@
 //     );
 //   },
 // );
-
 //promise chaining
 function db(x) {
     return new Promise((resolve,reject)=>{
